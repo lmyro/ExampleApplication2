@@ -25,7 +25,7 @@ jobs:
       - run:
           name: install-npm-wee
           command: npm install
-      -run:
+      - run:
           name: test-run
           command: npm run test
       - save_cache:
